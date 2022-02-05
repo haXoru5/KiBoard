@@ -30,98 +30,10 @@ U 1 1 61DFEF79
 P 1900 2500
 F 0 "R4" V 1693 2500 50  0000 C CNN
 F 1 "22" V 1784 2500 50  0000 C CNN
-F 2 "" V 1830 2500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1830 2500 50  0001 C CNN
 F 3 "~" H 1900 2500 50  0001 C CNN
 	1    1900 2500
 	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW11
-U 1 1 61E03170
-P 6750 3000
-F 0 "SW11" H 6750 3285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6750 3194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 3200 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 3200 50  0001 C CNN
-	1    6750 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW14
-U 1 1 61E03593
-P 6150 3650
-F 0 "SW14" H 6150 3935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6150 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 3850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 3850 50  0001 C CNN
-	1    6150 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW15
-U 1 1 61E03AFD
-P 6750 3650
-F 0 "SW15" H 6750 3935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6750 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 3850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 3850 50  0001 C CNN
-	1    6750 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW17
-U 1 1 61E0436B
-P 6150 4300
-F 0 "SW17" H 6150 4585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6150 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 4500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 4500 50  0001 C CNN
-	1    6150 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW18
-U 1 1 61E04ABE
-P 6750 4300
-F 0 "SW18" H 6750 4585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6750 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 4500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 4500 50  0001 C CNN
-	1    6750 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW16
-U 1 1 61E050D2
-P 7350 3650
-F 0 "SW16" H 7350 3935 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 3844 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 3850 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 3850 50  0001 C CNN
-	1    7350 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW12
-U 1 1 61E055DD
-P 7350 3000
-F 0 "SW12" H 7350 3285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 3194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 3200 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 3200 50  0001 C CNN
-	1    7350 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW19
-U 1 1 61E05A10
-P 7350 4300
-F 0 "SW19" H 7350 4585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 4500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 4500 50  0001 C CNN
-	1    7350 4300
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R5
@@ -129,7 +41,7 @@ U 1 1 61E0A590
 P 1900 2700
 F 0 "R5" V 1693 2700 50  0000 C CNN
 F 1 "22" V 1784 2700 50  0000 C CNN
-F 2 "" V 1830 2700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1830 2700 50  0001 C CNN
 F 3 "~" H 1900 2700 50  0001 C CNN
 	1    1900 2700
 	0    1    1    0   
@@ -152,7 +64,7 @@ U 1 1 61E0E0EA
 P 1050 2500
 F 0 "J1" H 1157 3367 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1157 3276 50  0000 C CNN
-F 2 "" H 1200 2500 50  0001 C CNN
+F 2 "MacroBoard:USB4085-GF-A" H 1200 2500 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1200 2500 50  0001 C CNN
 	1    1050 2500
 	1    0    0    -1  
@@ -177,7 +89,7 @@ U 1 1 61E13CA1
 P 1900 2100
 F 0 "R2" V 1693 2100 50  0000 C CNN
 F 1 "5k1" V 1784 2100 50  0000 C CNN
-F 2 "" V 1830 2100 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1830 2100 50  0001 C CNN
 F 3 "~" H 1900 2100 50  0001 C CNN
 	1    1900 2100
 	0    1    1    0   
@@ -188,7 +100,7 @@ U 1 1 61E14852
 P 1900 2200
 F 0 "R3" V 1693 2200 50  0000 C CNN
 F 1 "5k1" V 1784 2200 50  0000 C CNN
-F 2 "" V 1830 2200 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1830 2200 50  0001 C CNN
 F 3 "~" H 1900 2200 50  0001 C CNN
 	1    1900 2200
 	0    1    1    0   
@@ -245,7 +157,7 @@ U 1 1 61E19E76
 P 2350 2950
 F 0 "C3" H 2465 2996 50  0000 L CNN
 F 1 "1uF" H 2465 2905 50  0000 L CNN
-F 2 "" H 2388 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2388 2800 50  0001 C CNN
 F 3 "~" H 2350 2950 50  0001 C CNN
 	1    2350 2950
 	1    0    0    -1  
@@ -333,21 +245,10 @@ U 1 1 61E24D09
 P 5800 6700
 F 0 "SW23" H 6030 6746 50  0000 L CNN
 F 1 "Rotary_Encoder" H 6030 6655 50  0000 L CNN
-F 2 "" H 5650 6860 50  0001 C CNN
+F 2 "MacroBoard:Rotary_Encoder" H 5650 6860 50  0001 C CNN
 F 3 "~" H 5800 6960 50  0001 C CNN
 	1    5800 6700
 	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_Push SW1
-U 1 1 61E2DEF2
-P 1950 1400
-F 0 "SW1" H 1950 1685 50  0000 C CNN
-F 1 "SW_Push" H 1950 1594 50  0000 C CNN
-F 2 "" H 1950 1600 50  0001 C CNN
-F 3 "~" H 1950 1600 50  0001 C CNN
-	1    1950 1400
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR05
@@ -366,7 +267,7 @@ U 1 1 61E2F655
 P 2300 1150
 F 0 "R1" H 2230 1104 50  0000 R CNN
 F 1 "10k" H 2230 1195 50  0000 R CNN
-F 2 "" V 2230 1150 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2230 1150 50  0001 C CNN
 F 3 "~" H 2300 1150 50  0001 C CNN
 	1    2300 1150
 	-1   0    0    1   
@@ -388,138 +289,6 @@ F 3 "" H 2300 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 900  2300 1000
-$Comp
-L Switch:SW_MEC_5G SW21
-U 1 1 61E4F81A
-P 6150 4950
-F 0 "SW21" H 6150 5235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6150 5144 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 6150 5150 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 5150 50  0001 C CNN
-	1    6150 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW22
-U 1 1 61E52A71
-P 7350 4950
-F 0 "SW22" H 7350 5235 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 5144 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 5150 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 5150 50  0001 C CNN
-	1    7350 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW13
-U 1 1 61E5B39B
-P 7950 3000
-F 0 "SW13" H 7950 3285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7950 3194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 7950 3200 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 3200 50  0001 C CNN
-	1    7950 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW6
-U 1 1 61E5F0EC
-P 6150 2350
-F 0 "SW6" H 6150 2635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6150 2544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 2550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 2550 50  0001 C CNN
-	1    6150 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW7
-U 1 1 61E60AF0
-P 6750 2350
-F 0 "SW7" H 6750 2635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6750 2544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 2550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 2550 50  0001 C CNN
-	1    6750 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW8
-U 1 1 61E64082
-P 7350 2350
-F 0 "SW8" H 7350 2635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 2544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 2550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 2550 50  0001 C CNN
-	1    7350 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW9
-U 1 1 61E675BE
-P 7950 2350
-F 0 "SW9" H 7950 2635 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7950 2544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7950 2550 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 2550 50  0001 C CNN
-	1    7950 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW2
-U 1 1 61E7526A
-P 6150 1700
-F 0 "SW2" H 6150 1985 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6150 1894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 1900 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 1900 50  0001 C CNN
-	1    6150 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW3
-U 1 1 61E75278
-P 6750 1700
-F 0 "SW3" H 6750 1985 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6750 1894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 1900 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 1900 50  0001 C CNN
-	1    6750 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW4
-U 1 1 61E75286
-P 7350 1700
-F 0 "SW4" H 7350 1985 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7350 1894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 1900 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 1900 50  0001 C CNN
-	1    7350 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW5
-U 1 1 61E75294
-P 7950 1700
-F 0 "SW5" H 7950 1985 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7950 1894 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7950 1900 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 1900 50  0001 C CNN
-	1    7950 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_MEC_5G SW10
-U 1 1 61DFB1F0
-P 6150 3000
-F 0 "SW10" H 6150 3285 50  0000 C CNN
-F 1 "SW_MEC_5G" H 6150 3194 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 3200 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 3200 50  0001 C CNN
-	1    6150 3000
-	1    0    0    -1  
-$EndComp
 Text GLabel 6350 1250 1    50   Input ~ 0
 Col0
 Text GLabel 6950 1250 1    50   Input ~ 0
@@ -528,71 +297,24 @@ Text GLabel 7550 1250 1    50   Input ~ 0
 Col2
 Text GLabel 8150 1250 1    50   Input ~ 0
 Col3
-Wire Wire Line
-	6350 1250 6350 1700
-Wire Wire Line
-	6950 1250 6950 1700
-Wire Wire Line
-	7550 1250 7550 1700
-Wire Wire Line
-	8150 1250 8150 1700
 $Comp
 L Device:D D1
 U 1 1 61EA7E1D
 P 5900 1850
 F 0 "D1" V 5946 1770 50  0000 R CNN
 F 1 "D" V 5855 1770 50  0000 R CNN
-F 2 "" H 5900 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 1850 50  0001 C CNN
 F 3 "~" H 5900 1850 50  0001 C CNN
 	1    5900 1850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6350 1700 6350 2350
-Connection ~ 6350 1700
-Wire Wire Line
-	6950 1700 6950 2350
-Connection ~ 6950 1700
-Wire Wire Line
-	7550 1700 7550 2350
-Connection ~ 7550 1700
-Wire Wire Line
-	7550 2350 7550 3000
-Connection ~ 7550 2350
-Wire Wire Line
-	6950 2350 6950 3000
-Connection ~ 6950 2350
-Wire Wire Line
-	6350 2350 6350 3000
-Connection ~ 6350 2350
-Wire Wire Line
-	6350 3000 6350 3650
-Connection ~ 6350 3000
-Wire Wire Line
-	6950 3000 6950 3650
-Connection ~ 6950 3000
-Wire Wire Line
-	7550 3000 7550 3650
-Connection ~ 7550 3000
-Wire Wire Line
-	7550 3650 7550 4300
-Connection ~ 7550 3650
-Wire Wire Line
-	7550 4300 7550 4950
-Connection ~ 7550 4300
-Wire Wire Line
-	6350 3650 6350 4300
-Connection ~ 6350 3650
-Wire Wire Line
-	6950 3650 6950 4300
-Connection ~ 6950 3650
 $Comp
 L Device:D D2
 U 1 1 61ECB88E
 P 6500 1850
 F 0 "D2" V 6546 1770 50  0000 R CNN
 F 1 "D" V 6455 1770 50  0000 R CNN
-F 2 "" H 6500 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 1850 50  0001 C CNN
 F 3 "~" H 6500 1850 50  0001 C CNN
 	1    6500 1850
 	0    -1   -1   0   
@@ -603,7 +325,7 @@ U 1 1 61ECC4F1
 P 7100 1850
 F 0 "D3" V 7146 1770 50  0000 R CNN
 F 1 "D" V 7055 1770 50  0000 R CNN
-F 2 "" H 7100 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 1850 50  0001 C CNN
 F 3 "~" H 7100 1850 50  0001 C CNN
 	1    7100 1850
 	0    -1   -1   0   
@@ -614,7 +336,7 @@ U 1 1 61ECCC73
 P 7700 1850
 F 0 "D4" V 7746 1770 50  0000 R CNN
 F 1 "D" V 7655 1770 50  0000 R CNN
-F 2 "" H 7700 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 1850 50  0001 C CNN
 F 3 "~" H 7700 1850 50  0001 C CNN
 	1    7700 1850
 	0    -1   -1   0   
@@ -625,7 +347,7 @@ U 1 1 61ED3F3B
 P 5900 2500
 F 0 "D5" V 5946 2420 50  0000 R CNN
 F 1 "D" V 5855 2420 50  0000 R CNN
-F 2 "" H 5900 2500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 2500 50  0001 C CNN
 F 3 "~" H 5900 2500 50  0001 C CNN
 	1    5900 2500
 	0    -1   -1   0   
@@ -636,7 +358,7 @@ U 1 1 61ED48AC
 P 6500 2500
 F 0 "D6" V 6546 2420 50  0000 R CNN
 F 1 "D" V 6455 2420 50  0000 R CNN
-F 2 "" H 6500 2500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 2500 50  0001 C CNN
 F 3 "~" H 6500 2500 50  0001 C CNN
 	1    6500 2500
 	0    -1   -1   0   
@@ -647,7 +369,7 @@ U 1 1 61ED5137
 P 7100 2500
 F 0 "D7" V 7146 2420 50  0000 R CNN
 F 1 "D" V 7055 2420 50  0000 R CNN
-F 2 "" H 7100 2500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 2500 50  0001 C CNN
 F 3 "~" H 7100 2500 50  0001 C CNN
 	1    7100 2500
 	0    -1   -1   0   
@@ -658,7 +380,7 @@ U 1 1 61ED5A58
 P 7700 2500
 F 0 "D8" V 7746 2420 50  0000 R CNN
 F 1 "D" V 7655 2420 50  0000 R CNN
-F 2 "" H 7700 2500 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 2500 50  0001 C CNN
 F 3 "~" H 7700 2500 50  0001 C CNN
 	1    7700 2500
 	0    -1   -1   0   
@@ -669,7 +391,7 @@ U 1 1 61ED6257
 P 7700 3150
 F 0 "D12" V 7746 3070 50  0000 R CNN
 F 1 "D" V 7655 3070 50  0000 R CNN
-F 2 "" H 7700 3150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 3150 50  0001 C CNN
 F 3 "~" H 7700 3150 50  0001 C CNN
 	1    7700 3150
 	0    -1   -1   0   
@@ -680,7 +402,7 @@ U 1 1 61ED68E9
 P 7100 3150
 F 0 "D11" V 7146 3070 50  0000 R CNN
 F 1 "D" V 7055 3070 50  0000 R CNN
-F 2 "" H 7100 3150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 3150 50  0001 C CNN
 F 3 "~" H 7100 3150 50  0001 C CNN
 	1    7100 3150
 	0    -1   -1   0   
@@ -691,7 +413,7 @@ U 1 1 61ED70B1
 P 7100 3800
 F 0 "D15" V 7146 3720 50  0000 R CNN
 F 1 "D" V 7055 3720 50  0000 R CNN
-F 2 "" H 7100 3800 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 3800 50  0001 C CNN
 F 3 "~" H 7100 3800 50  0001 C CNN
 	1    7100 3800
 	0    -1   -1   0   
@@ -702,7 +424,7 @@ U 1 1 61ED7784
 P 6500 3800
 F 0 "D14" V 6546 3720 50  0000 R CNN
 F 1 "D" V 6455 3720 50  0000 R CNN
-F 2 "" H 6500 3800 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 3800 50  0001 C CNN
 F 3 "~" H 6500 3800 50  0001 C CNN
 	1    6500 3800
 	0    -1   -1   0   
@@ -713,7 +435,7 @@ U 1 1 61ED7D12
 P 5900 3800
 F 0 "D13" V 5946 3720 50  0000 R CNN
 F 1 "D" V 5855 3720 50  0000 R CNN
-F 2 "" H 5900 3800 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3800 50  0001 C CNN
 F 3 "~" H 5900 3800 50  0001 C CNN
 	1    5900 3800
 	0    -1   -1   0   
@@ -724,7 +446,7 @@ U 1 1 61ED802A
 P 5900 3150
 F 0 "D9" V 5946 3070 50  0000 R CNN
 F 1 "D" V 5855 3070 50  0000 R CNN
-F 2 "" H 5900 3150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3150 50  0001 C CNN
 F 3 "~" H 5900 3150 50  0001 C CNN
 	1    5900 3150
 	0    -1   -1   0   
@@ -735,7 +457,7 @@ U 1 1 61ED85F4
 P 6500 3150
 F 0 "D10" V 6546 3070 50  0000 R CNN
 F 1 "D" V 6455 3070 50  0000 R CNN
-F 2 "" H 6500 3150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 3150 50  0001 C CNN
 F 3 "~" H 6500 3150 50  0001 C CNN
 	1    6500 3150
 	0    -1   -1   0   
@@ -746,7 +468,7 @@ U 1 1 61ED8DD0
 P 5900 4450
 F 0 "D16" V 5946 4370 50  0000 R CNN
 F 1 "D" V 5855 4370 50  0000 R CNN
-F 2 "" H 5900 4450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 4450 50  0001 C CNN
 F 3 "~" H 5900 4450 50  0001 C CNN
 	1    5900 4450
 	0    -1   -1   0   
@@ -757,7 +479,7 @@ U 1 1 61ED95E8
 P 6500 4450
 F 0 "D17" V 6546 4370 50  0000 R CNN
 F 1 "D" V 6455 4370 50  0000 R CNN
-F 2 "" H 6500 4450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 4450 50  0001 C CNN
 F 3 "~" H 6500 4450 50  0001 C CNN
 	1    6500 4450
 	0    -1   -1   0   
@@ -768,7 +490,7 @@ U 1 1 61ED9C6D
 P 7100 4450
 F 0 "D18" V 7146 4370 50  0000 R CNN
 F 1 "D" V 7055 4370 50  0000 R CNN
-F 2 "" H 7100 4450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 4450 50  0001 C CNN
 F 3 "~" H 7100 4450 50  0001 C CNN
 	1    7100 4450
 	0    -1   -1   0   
@@ -779,7 +501,7 @@ U 1 1 61EDA5FE
 P 7100 5100
 F 0 "D21" V 7146 5020 50  0000 R CNN
 F 1 "D" V 7055 5020 50  0000 R CNN
-F 2 "" H 7100 5100 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 5100 50  0001 C CNN
 F 3 "~" H 7100 5100 50  0001 C CNN
 	1    7100 5100
 	0    -1   -1   0   
@@ -790,7 +512,7 @@ U 1 1 61EDAB7D
 P 5900 5100
 F 0 "D20" V 5946 5020 50  0000 R CNN
 F 1 "D" V 5855 5020 50  0000 R CNN
-F 2 "" H 5900 5100 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 5100 50  0001 C CNN
 F 3 "~" H 5900 5100 50  0001 C CNN
 	1    5900 5100
 	0    -1   -1   0   
@@ -836,9 +558,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 3000 7700 3000
 Wire Wire Line
-	6350 4950 6350 4300
-Connection ~ 6350 4300
-Wire Wire Line
 	7750 4300 7700 4300
 $Comp
 L Device:D D19
@@ -846,31 +565,11 @@ U 1 1 61EDA15B
 P 7700 4450
 F 0 "D19" V 7746 4370 50  0000 R CNN
 F 1 "D" V 7655 4370 50  0000 R CNN
-F 2 "" H 7700 4450 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 4450 50  0001 C CNN
 F 3 "~" H 7700 4450 50  0001 C CNN
 	1    7700 4450
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Switch:SW_MEC_5G SW20
-U 1 1 61E5104F
-P 7950 4300
-F 0 "SW20" H 7950 4585 50  0000 C CNN
-F 1 "SW_MEC_5G" H 7950 4494 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 7950 4500 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 4500 50  0001 C CNN
-	1    7950 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 1700 8150 2350
-Connection ~ 8150 1700
-Wire Wire Line
-	8150 3000 8150 2350
-Connection ~ 8150 2350
-Wire Wire Line
-	8150 4300 8150 3000
-Connection ~ 8150 3000
 Text GLabel 5700 2000 0    50   Input ~ 0
 Row0
 Wire Wire Line
@@ -1349,7 +1048,7 @@ U 1 1 61F4A5B7
 P 3900 3500
 F 0 "R6" V 4107 3500 50  0000 C CNN
 F 1 "10k" V 4016 3500 50  0000 C CNN
-F 2 "" V 3830 3500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 3500 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
 	1    3900 3500
 	0    -1   -1   0   
@@ -1377,32 +1076,32 @@ Text GLabel 4000 1500 2    50   Input ~ 0
 Row1
 Text GLabel 4350 1600 2    50   Input ~ 0
 Row2
-Text GLabel 3650 1800 2    50   Input ~ 0
-Row4
 Text GLabel 3650 1900 2    50   Input ~ 0
+Row4
+Text GLabel 3650 1800 2    50   Input ~ 0
 Row5
-Text GLabel 3650 2000 2    50   Input ~ 0
+Text GLabel 3650 3800 2    50   Input ~ 0
 Col0
-Text GLabel 3650 2100 2    50   Input ~ 0
+Text GLabel 3650 3900 2    50   Input ~ 0
 Col1
-Text GLabel 3650 2300 2    50   Input ~ 0
+Text GLabel 3650 4000 2    50   Input ~ 0
 Col2
-Text GLabel 3650 2400 2    50   Input ~ 0
+Text GLabel 3650 4100 2    50   Input ~ 0
 Col3
-Text GLabel 3650 2600 2    50   Input ~ 0
+Text GLabel 3650 3200 2    50   Input ~ 0
 REA
-Text GLabel 3650 2700 2    50   Input ~ 0
+Text GLabel 3650 3300 2    50   Input ~ 0
 REB
 NoConn ~ 3650 2800
 NoConn ~ 3650 2900
 NoConn ~ 3650 3000
 NoConn ~ 3650 3100
-NoConn ~ 3650 3200
-NoConn ~ 3650 3300
-NoConn ~ 3650 3800
-NoConn ~ 3650 3900
-NoConn ~ 3650 4000
-NoConn ~ 3650 4100
+NoConn ~ 3650 2600
+NoConn ~ 3650 2700
+NoConn ~ 3650 2000
+NoConn ~ 3650 2400
+NoConn ~ 3650 2100
+NoConn ~ 3650 2300
 NoConn ~ 3650 4200
 NoConn ~ 3650 4300
 Text GLabel 2450 1600 0    50   Input ~ 0
@@ -1444,8 +1143,8 @@ L Device:C C1
 U 1 1 61E41BFF
 P 5050 1150
 F 0 "C1" H 5165 1196 50  0000 L CNN
-F 1 "22pF" H 5165 1105 50  0000 L CNN
-F 2 "" H 5088 1000 50  0001 C CNN
+F 1 "10pF" H 5165 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5088 1000 50  0001 C CNN
 F 3 "~" H 5050 1150 50  0001 C CNN
 	1    5050 1150
 	1    0    0    -1  
@@ -1455,8 +1154,8 @@ L Device:C C2
 U 1 1 61E42CC5
 P 5450 1150
 F 0 "C2" H 5565 1196 50  0000 L CNN
-F 1 "22pF" H 5565 1105 50  0000 L CNN
-F 2 "" H 5488 1000 50  0001 C CNN
+F 1 "10pF" H 5565 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5488 1000 50  0001 C CNN
 F 3 "~" H 5450 1150 50  0001 C CNN
 	1    5450 1150
 	1    0    0    -1  
@@ -1497,7 +1196,7 @@ U 1 1 61FAFCCC
 P 1350 4450
 F 0 "J2" H 1021 4546 50  0000 R CNN
 F 1 "AVR-ISP-6" H 1021 4455 50  0000 R CNN
-F 2 "" V 1100 4500 50  0001 C CNN
+F 2 "MacroBoard:ISP" V 1100 4500 50  0001 C CNN
 F 3 " ~" H 75  3900 50  0001 C CNN
 	1    1350 4450
 	1    0    0    -1  
@@ -1582,7 +1281,7 @@ U 1 1 62036FD1
 P 5700 6050
 F 0 "R7" V 5907 6050 50  0000 C CNN
 F 1 "10k" V 5816 6050 50  0000 C CNN
-F 2 "" V 5630 6050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5630 6050 50  0001 C CNN
 F 3 "~" H 5700 6050 50  0001 C CNN
 	1    5700 6050
 	-1   0    0    1   
@@ -1615,7 +1314,7 @@ U 1 1 620524DD
 P 5900 6050
 F 0 "R8" V 6107 6050 50  0000 C CNN
 F 1 "10k" V 6016 6050 50  0000 C CNN
-F 2 "" V 5830 6050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5830 6050 50  0001 C CNN
 F 3 "~" H 5900 6050 50  0001 C CNN
 	1    5900 6050
 	1    0    0    -1  
@@ -1639,7 +1338,7 @@ U 1 1 620702B7
 P 6150 6300
 F 0 "R10" V 6357 6300 50  0000 C CNN
 F 1 "10k" V 6266 6300 50  0000 C CNN
-F 2 "" V 6080 6300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6080 6300 50  0001 C CNN
 F 3 "~" H 6150 6300 50  0001 C CNN
 	1    6150 6300
 	0    1    1    0   
@@ -1650,7 +1349,7 @@ U 1 1 62070EB7
 P 5450 6300
 F 0 "R9" V 5657 6300 50  0000 C CNN
 F 1 "10k" V 5566 6300 50  0000 C CNN
-F 2 "" V 5380 6300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5380 6300 50  0001 C CNN
 F 3 "~" H 5450 6300 50  0001 C CNN
 	1    5450 6300
 	0    1    1    0   
@@ -1675,7 +1374,7 @@ U 1 1 6208AA8D
 P 5250 6550
 F 0 "C9" H 5365 6596 50  0000 L CNN
 F 1 "10nF" H 5365 6505 50  0000 L CNN
-F 2 "" H 5288 6400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5288 6400 50  0001 C CNN
 F 3 "~" H 5250 6550 50  0001 C CNN
 	1    5250 6550
 	-1   0    0    1   
@@ -1686,7 +1385,7 @@ U 1 1 6208C30E
 P 6350 6550
 F 0 "C10" H 6465 6596 50  0000 L CNN
 F 1 "10nF" H 6465 6505 50  0000 L CNN
-F 2 "" H 6388 6400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6388 6400 50  0001 C CNN
 F 3 "~" H 6350 6550 50  0001 C CNN
 	1    6350 6550
 	1    0    0    -1  
@@ -1733,7 +1432,7 @@ U 1 1 620AC615
 P 5250 950
 F 0 "Y1" H 5650 1250 50  0000 L CNN
 F 1 "Crystal_GND24_16MHz" H 5300 1150 50  0000 L CNN
-F 2 "" H 5250 950 50  0001 C CNN
+F 2 "MacroBoard:FA-20H_Crystal" H 5250 950 50  0001 C CNN
 F 3 "~" H 5250 950 50  0001 C CNN
 	1    5250 950 
 	1    0    0    -1  
@@ -1768,7 +1467,7 @@ U 1 1 620B9430
 P 2000 6000
 F 0 "C8" H 2115 6046 50  0000 L CNN
 F 1 "10uF" H 2115 5955 50  0000 L CNN
-F 2 "" H 2038 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2038 5850 50  0001 C CNN
 F 3 "~" H 2000 6000 50  0001 C CNN
 	1    2000 6000
 	1    0    0    -1  
@@ -1779,7 +1478,7 @@ U 1 1 620BB2CC
 P 1700 6000
 F 0 "C7" H 1815 6046 50  0000 L CNN
 F 1 "100nF" H 1815 5955 50  0000 L CNN
-F 2 "" H 1738 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1738 5850 50  0001 C CNN
 F 3 "~" H 1700 6000 50  0001 C CNN
 	1    1700 6000
 	1    0    0    -1  
@@ -1790,7 +1489,7 @@ U 1 1 620C49BD
 P 1450 6000
 F 0 "C6" H 1565 6046 50  0000 L CNN
 F 1 "100nF" H 1565 5955 50  0000 L CNN
-F 2 "" H 1488 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1488 5850 50  0001 C CNN
 F 3 "~" H 1450 6000 50  0001 C CNN
 	1    1450 6000
 	1    0    0    -1  
@@ -1801,7 +1500,7 @@ U 1 1 620C4D2A
 P 1200 6000
 F 0 "C5" H 1315 6046 50  0000 L CNN
 F 1 "100nF" H 1315 5955 50  0000 L CNN
-F 2 "" H 1238 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 1238 5850 50  0001 C CNN
 F 3 "~" H 1200 6000 50  0001 C CNN
 	1    1200 6000
 	1    0    0    -1  
@@ -1812,7 +1511,7 @@ U 1 1 620C50BD
 P 950 6000
 F 0 "C4" H 1065 6046 50  0000 L CNN
 F 1 "100nF" H 1065 5955 50  0000 L CNN
-F 2 "" H 988 5850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 988 5850 50  0001 C CNN
 F 3 "~" H 950 6000 50  0001 C CNN
 	1    950  6000
 	1    0    0    -1  
@@ -1878,6 +1577,309 @@ Text Notes 2200 5800 0    50   ~ 0
 10uF for VCC, remainder for Vin
 Text GLabel 4000 1800 2    50   Input ~ 0
 MISO
-Text Notes 5850 950  0    50   ~ 0
-C1=C2=2(CL-Cstray)
+Text Notes 6250 800  0    50   ~ 0
+C1=C2=2(CL-Cstray)\nCL = 8pF, assume Cstray = 3pF
+$Comp
+L keyboard:SW_MEC_5G SW2
+U 1 1 62051609
+P 6150 1700
+F 0 "SW2" H 6150 1985 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6150 1894 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 1900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 1900 50  0001 C CNN
+	1    6150 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1250 8150 1700
+Wire Wire Line
+	6950 1250 6950 1700
+Wire Wire Line
+	6350 1250 6350 1700
+Wire Wire Line
+	7550 1250 7550 1700
+Connection ~ 6350 1700
+Wire Wire Line
+	6350 1700 6350 2350
+$Comp
+L keyboard:SW_MEC_5G SW3
+U 1 1 62052542
+P 6750 1700
+F 0 "SW3" H 6750 1985 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6750 1894 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 1900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 1900 50  0001 C CNN
+	1    6750 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 1700
+Wire Wire Line
+	6950 1700 6950 2350
+$Comp
+L keyboard:SW_MEC_5G SW4
+U 1 1 62052AF0
+P 7350 1700
+F 0 "SW4" H 7350 1985 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7350 1894 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 1900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 1900 50  0001 C CNN
+	1    7350 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 1700
+Wire Wire Line
+	7550 1700 7550 2350
+$Comp
+L keyboard:SW_MEC_5G SW5
+U 1 1 6205321D
+P 7950 1700
+F 0 "SW5" H 7950 1985 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7950 1894 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7950 1900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 1900 50  0001 C CNN
+	1    7950 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8150 1700
+Wire Wire Line
+	8150 1700 8150 2350
+$Comp
+L keyboard:SW_MEC_5G SW6
+U 1 1 620539A2
+P 6150 2350
+F 0 "SW6" H 6150 2635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6150 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 2550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 2550 50  0001 C CNN
+	1    6150 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 2350
+Wire Wire Line
+	6350 2350 6350 3000
+$Comp
+L keyboard:SW_MEC_5G SW7
+U 1 1 620541BF
+P 6750 2350
+F 0 "SW7" H 6750 2635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6750 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 2550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 2550 50  0001 C CNN
+	1    6750 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 2350
+Wire Wire Line
+	6950 2350 6950 3000
+$Comp
+L keyboard:SW_MEC_5G SW8
+U 1 1 620547C5
+P 7350 2350
+F 0 "SW8" H 7350 2635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7350 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 2550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 2550 50  0001 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 2350
+Wire Wire Line
+	7550 2350 7550 3000
+$Comp
+L keyboard:SW_MEC_5G SW9
+U 1 1 62054DA8
+P 7950 2350
+F 0 "SW9" H 7950 2635 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7950 2544 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7950 2550 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 2550 50  0001 C CNN
+	1    7950 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8150 2350
+Wire Wire Line
+	8150 2350 8150 3000
+$Comp
+L keyboard:SW_MEC_5G SW10
+U 1 1 6205541F
+P 6150 3000
+F 0 "SW10" H 6150 3285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6150 3194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 3200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 3200 50  0001 C CNN
+	1    6150 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 3000
+Wire Wire Line
+	6350 3000 6350 3650
+$Comp
+L keyboard:SW_MEC_5G SW11
+U 1 1 62055CFA
+P 6750 3000
+F 0 "SW11" H 6750 3285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6750 3194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 3200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 3200 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3000
+Wire Wire Line
+	6950 3000 6950 3650
+$Comp
+L keyboard:SW_MEC_5G SW12
+U 1 1 620564CD
+P 7350 3000
+F 0 "SW12" H 7350 3285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7350 3194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 3200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 3200 50  0001 C CNN
+	1    7350 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 3000
+Wire Wire Line
+	7550 3000 7550 3650
+$Comp
+L keyboard:SW_MEC_5G SW13
+U 1 1 620569BA
+P 7950 3000
+F 0 "SW13" H 7950 3285 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7950 3194 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 7950 3200 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 3200 50  0001 C CNN
+	1    7950 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8150 3000
+Wire Wire Line
+	8150 3000 8150 4300
+$Comp
+L keyboard:SW_MEC_5G SW14
+U 1 1 62056E38
+P 6150 3650
+F 0 "SW14" H 6150 3935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6150 3844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 3850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 3850 50  0001 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 3650
+Wire Wire Line
+	6350 3650 6350 4300
+$Comp
+L keyboard:SW_MEC_5G SW15
+U 1 1 62057474
+P 6750 3650
+F 0 "SW15" H 6750 3935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6750 3844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 3850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 3850 50  0001 C CNN
+	1    6750 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 3650
+Wire Wire Line
+	6950 3650 6950 4300
+$Comp
+L keyboard:SW_MEC_5G SW16
+U 1 1 620578A0
+P 7350 3650
+F 0 "SW16" H 7350 3935 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7350 3844 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 3850 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 3850 50  0001 C CNN
+	1    7350 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 3650
+Wire Wire Line
+	7550 3650 7550 4300
+$Comp
+L keyboard:SW_MEC_5G SW17
+U 1 1 62057EE5
+P 6150 4300
+F 0 "SW17" H 6150 4585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6150 4494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6150 4500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 4500 50  0001 C CNN
+	1    6150 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 4300
+Wire Wire Line
+	6350 4300 6350 4950
+$Comp
+L keyboard:SW_MEC_5G SW18
+U 1 1 62058713
+P 6750 4300
+F 0 "SW18" H 6750 4585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6750 4494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6750 4500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6750 4500 50  0001 C CNN
+	1    6750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard:SW_MEC_5G SW19
+U 1 1 62058E89
+P 7350 4300
+F 0 "SW19" H 7350 4585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7350 4494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 4500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 4500 50  0001 C CNN
+	1    7350 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 4300
+Wire Wire Line
+	7550 4300 7550 4950
+$Comp
+L keyboard:SW_MEC_5G SW20
+U 1 1 620594F0
+P 7950 4300
+F 0 "SW20" H 7950 4585 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7950 4494 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB" H 7950 4500 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7950 4500 50  0001 C CNN
+	1    7950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard:SW_MEC_5G SW21
+U 1 1 620599DF
+P 6150 4950
+F 0 "SW21" H 6150 5235 50  0000 C CNN
+F 1 "SW_MEC_5G" H 6150 5144 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB" H 6150 5150 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6150 5150 50  0001 C CNN
+	1    6150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard:SW_MEC_5G SW22
+U 1 1 6205A086
+P 7350 4950
+F 0 "SW22" H 7350 5235 50  0000 C CNN
+F 1 "SW_MEC_5G" H 7350 5144 50  0000 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 7350 5150 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7350 5150 50  0001 C CNN
+	1    7350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard:SW_MEC_5G SW1
+U 1 1 6205AB66
+P 1950 1400
+F 0 "SW1" H 1950 1685 50  0000 C CNN
+F 1 "SW_MEC_5G" H 1950 1594 50  0000 C CNN
+F 2 "MacroBoard:Button_Breakout" H 1950 1600 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1950 1600 50  0001 C CNN
+	1    1950 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 3850 2300 0    50   ~ 0
+add LED numlock indicator
 $EndSCHEMATC
